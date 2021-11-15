@@ -34,19 +34,19 @@ while game == True:
     
     # Checks the choice of the computer and the user
     if userChoice == computerChoice:
-        print('It\'s a draw')
+        print('It\'s a draw\n')
         drawCount += 1
     elif userChoice == 1 and computerChoice == 3:
-        print('\nYou win !!!')
+        print('You win !!!\n')
         winCount += 1
     elif userChoice == 2 and computerChoice == 1:
-        print('\nYou win !!!')
+        print('You win !!!\n')
         winCount += 1
     elif userChoice == 3 and computerChoice == 2:
-        print('\nYou win !!!')
+        print('You win !!!\n')
         winCount += 1
     else:
-        print('\nComputer wins !!!')
+        print('Computer wins !!!\n')
         loseCount += 1
     
     #Asks user whether he wants to play again
