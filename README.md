@@ -1,2 +1,2 @@
 # RockPaperScissor
-This is a command-line program to play Rock Paper Scissors
+This is a command-line program to play Rock Paper Scissors. Made using Python
